@@ -1,4 +1,5 @@
-const sum = require('./sum.js')
+// const sum = require('./sum.js')
+import { sum } from './sum.js'
 
 test('sum test', () => {
   expect(sum(1, 2)).toBe(3)

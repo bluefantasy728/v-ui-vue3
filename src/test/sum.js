@@ -1,4 +1,7 @@
-module.exports = function (a, b) {
+// module.exports = function (a, b) {
+//   return a + b
+// }
+export function sum(a, b) {
   return a + b
 }
 
